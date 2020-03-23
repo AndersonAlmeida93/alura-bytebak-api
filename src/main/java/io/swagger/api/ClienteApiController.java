@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import io.swagger.annotations.ApiParam;
+import io.swagger.customizacao.service.ClienteService;
+import io.swagger.customizacao.util.RespostasUtil;
 import io.swagger.model.Cliente;
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2020-03-20T20:36:55.717Z[GMT]")
 @Controller
